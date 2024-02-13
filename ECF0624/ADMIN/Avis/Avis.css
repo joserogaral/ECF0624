@@ -1,0 +1,95 @@
+/* Conditions */
+* {
+    box-sizing: border-box;
+  }
+ 
+  html{
+    font-size: 62.5%;
+    font-family: 'Comfortaa', sans-serif;
+  } 
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+
+/* Header */
+.cab{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    height: 100px;
+}
+.cab1{
+    display: flex;
+    margin-right: 20px;
+}
+.ccc a {
+    width: 100%;
+    display: flex;
+    padding: 10px;   
+}
+.ccc{
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 5px;
+}
+
+.list :hover{
+    color: #E37F4B;
+}
+
+.list a{
+    color: black;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    gap: 30px;
+}
+
+
+  /* BODY 1 */
+
+
+.contt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7rem;
+    padding: 5rem;
+}
+
+.titu h3{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.titu{
+    padding: 2rem;
+}
+
+.voilist th{
+    font-size: 2rem;
+}
+
+.voilist td{
+    font-size: 2rem;
+}
+
+.voilist tr{
+    display: flex;
+    justify-content: space-between;
+    gap: 9rem;
+}

@@ -1,0 +1,299 @@
+/* Conditions */
+* {
+    box-sizing: border-box;
+  }
+
+  html{
+    font-size: 62.5%;
+  }   
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+/* Header */
+.cab{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    height: 100px;
+}
+.cab1{
+    display: flex;
+    margin-right: 20px;
+}
+.ccc a {
+    width: 100%;
+    display: flex;
+    padding: 10px;   
+}
+.ccc{
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 5px;
+}
+
+.list :hover{
+    color: #E37F4B;
+}
+
+.list a{
+    color: black;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    gap: 30px;
+}
+
+/* BODY 1 */
+.pre{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 90vh;
+}
+
+.previ{
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sec{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  gap: 7px;
+  padding: 25px;
+  background-color: #EEEDED;
+  z-index: 1;
+}
+.sec h1,h2,h3{
+  color: #E37F4B;
+  font-family: 'Comfortaa', sans-serif;
+  text-align: center;
+}
+
+.sec h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.sec h2{
+  font-size: 25px;
+}
+
+.sec h3{
+  font-size: 15px;
+}
+
+.sec button{
+  color: black;
+  background-color: white;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.sec button:hover{
+  color: #6EE34B;
+  background-color: #8F6550;
+}
+
+
+.control{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+  padding: 5rem;
+  height: 20rem;
+}
+
+.control1{
+  width: 25%;
+  border: solid;
+  border-width: 1px;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.control1 label{
+  font-size: 2rem;
+}
+
+.tyt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.demandd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+
+
+
+
+
+.marco{
+    border: solid;
+    border-width: 1px;
+    width: 400px;
+    height: 788px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 5px;
+  }
+  
+  .imeg{
+    padding: 20px;
+
+  }
+
+  .imeg img{
+    width: 318px;
+    height: 427px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  
+  .marco img{
+    border-radius: 5px;
+  }
+
+  .shb{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  .linn{ 
+    width: 100%;
+  }
+
+  .linfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 22rem;
+    margin: 0;
+    width: 100%;
+    padding: 10rem;
+  }
+
+  .linfo button{
+    width: 100%;
+    height: 35px;
+    border-radius: 13px;
+    font-size: 15px;
+    font-family: 'Comfortaa', sans-serif;
+  }
+
+  .linfo button:hover{
+    color: #6EE34B;
+    background-color: #8F6550;
+  }
+
+
+  /* FOOTER */
+
+.foot{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 3rem;
+  height: 55rem;
+  justify-content: space-around;
+  font-family: 'Comfortaa', sans-serif;
+}
+
+.foot h6{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.foot h3{
+  font-size: 2rem;
+}
+
+.redsimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.redsimg img{
+  width: 70px;
+}
+
+.apropos a{
+  color: black;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.apropos a:hover{
+  color: #E37F4B;
+}
+
+
+
+  @media (max-width: 1715px){
+
+    .container{
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    }
+
+    @media (max-width: 1095px){
+
+      .container{
+        grid-template-columns: repeat(1, 1fr);
+      }
+      
+      }
+  

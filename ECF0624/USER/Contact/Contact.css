@@ -1,0 +1,321 @@
+/* Conditions */
+* {
+    box-sizing: border-box;
+  }
+
+  html{
+    font-size: 62.5%;
+  } 
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+/* Header */
+.cab{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    height: 100px;
+}
+.cab1{
+    display: flex;
+    margin-right: 20px;
+}
+.ccc a {
+    width: 100%;
+    display: flex;
+    padding: 10px;   
+}
+.ccc{
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 5px;
+}
+
+.list :hover{
+    color: #E37F4B;
+}
+
+.list a{
+    color: black;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    gap: 30px;
+}
+/* BODY 1 */
+.pre{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 90vh;
+}
+
+.previ{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sec{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    gap: 7px;
+    padding: 25px;
+    background-color: #EEEDED;
+    z-index: 1;
+}
+ .sec h1,h2,h3{
+    color: #E37F4B;
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+ }
+
+ .sec h1{
+    font-size: 40px;
+    font-weight: 700;
+ }
+
+ .sec h2{
+    font-size: 25px;
+ }
+
+ .sec h3{
+    font-size: 15px;
+ }
+
+ .sec button{
+    color: black;
+    background-color: white;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 1rem;
+ }
+
+ .sec button:hover{
+    color: #6EE34B;
+    background-color: #8F6550;
+ }
+
+ /* BODY 2*/ 
+
+ .form {
+    font-family: 'Comfortaa', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200rem;
+    gap: 10rem;
+    padding: 10rem;
+    margin-top: 2rem;
+ }
+
+ .formtxt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .form h1{
+    font-size: 4rem;
+ }
+
+ .form h3{
+    font-size: 2rem;
+ }
+
+ .form1{
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 3rem;
+    width: 65rem;
+    height: 90rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+ }
+
+ .lttl{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.lttl input{
+    font-family: 'Comfortaa', sans-serif;
+    width: 52rem;
+    height: 3.5rem;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+}
+
+.lttl h2{
+    font-size: 4rem;
+}
+
+.ttt{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+    height: 100%;
+}
+
+.ttt label{
+    color:  #E37F4B;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.elo input{
+    font-family: 'Comfortaa', sans-serif;
+    width: 52rem;
+    height: 10rem;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+}
+
+
+
+.bbb button{
+    padding: 1rem;
+    text-align: center;
+    width: 15rem;
+    height: 5rem;
+    border-radius: 5px;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 2rem;
+    background-color: white;
+
+}
+
+.bbb{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.bbb button:hover{
+    color: #6EE34B;
+    background-color: #8F6550;
+ }
+
+ /* FOOTER */
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 3rem;
+    height: 55rem;
+    justify-content: space-around;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.foot h6{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.foot h3{
+    font-size: 2rem;
+}
+
+.redsimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.redsimg img{ 
+    width: 70px;
+}
+
+.apropos a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.apropos a:hover{
+    color: #E37F4B;
+}
+
+
+@media (max-width: 720px){
+
+    .ccc a{
+        width: 60%;
+        height: 90%;
+    }
+    
+    .ccc{
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cab1 {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cab{
+        flex-direction: column;
+        height: 40rem;
+    }
+    
+    .list{
+        flex-direction: column;
+    }
+
+    .sec{
+        width: 100%;
+        height: 50%;
+        gap: 3px;
+    }
+    
+    .sec button{
+        display: none;
+    }
+    
+    .previ{
+        margin-top: 13rem;
+        height: 90%;
+    }
+
+}

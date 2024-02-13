@@ -1,0 +1,220 @@
+/* Conditions */
+* {
+    box-sizing: border-box;
+  }
+ 
+  html{
+    font-size: 62.5%;
+    font-family: 'Comfortaa', sans-serif;
+  } 
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+
+/* Header */
+.cab{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    height: 100px;
+}
+.cab1{
+    display: flex;
+    margin-right: 20px;
+}
+.ccc a {
+    width: 100%;
+    display: flex;
+    padding: 10px;   
+}
+.ccc{
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 5px;
+}
+
+.list :hover{
+    color: #E37F4B;
+}
+
+.list a{
+    color: black;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    gap: 30px;
+} 
+
+
+  /* BODY 1 */
+
+
+.contt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15rem;
+    padding: 5rem;
+}
+
+.voigara{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.titu h3{
+    text-align: center;
+    font-size: 5rem;
+    padding: 2rem;
+}
+
+.add{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+    padding: 1rem;
+}
+
+.add label{
+    font-size: 2rem;
+}
+
+.add input{
+    width: 30rem;
+    height: 4rem;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+}
+
+.fff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.fff input{
+    width: 30rem;
+    height: 4rem;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.mb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.mb label{
+    font-size: 2rem;
+}
+
+.bots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.bots button{
+    font-size: 2rem;
+}
+
+.prin{
+    display: flex;
+    gap: 2rem;
+}
+
+.sp{
+    background-color: #e3aaa6;
+    color: black;
+    border-radius: 5px;
+    height: 5rem;
+}
+
+.aj{
+    background-color: #c6f99a;
+    color: black;
+    border-radius: 5px;
+    height: 5rem;
+}
+
+.mo{
+    background-color: #a6d4f2;
+    color: black;
+    border-radius: 5px;
+    height: 5rem;
+}
+
+.tdh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.orl{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.voilist h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.secc{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.seecc input{
+   width: 52rem;
+   height: 32rem;
+   display: flex;
+}
+
+.seecc1 input{
+    width: 52rem;
+    height: 5rem;
+ }
+
+.botss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
